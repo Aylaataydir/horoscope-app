@@ -1,22 +1,68 @@
 .main-container {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(2, 61, 36, 0.218);
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  margin-inline: auto;
+  margin-block-end: 2rem;
 }
 .main-container .card-container {
   width: 20rem;
   position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 1px 3px 22px 5px rgba(0, 0, 0, 0.59);
+}
+.main-container .card-container:hover .desc {
+  transform: translateY(0%);
+  opacity: 1;
 }
 .main-container .card-container img {
   width: 100%;
-  border-radius: 0.5rem;
+  height: 100%;
 }
 .main-container .card-container .text {
   position: absolute;
   width: 100%;
+  height: 100%;
   top: 0;
 }
+.main-container .card-container .text h3 {
+  display: inline;
+  margin: 0.5rem;
+  color: rgba(183, 103, 42, 0.9);
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.821);
+  border-radius: 1rem;
+  position: absolute;
+  top: 8px;
+}
+.main-container .card-container .text h5 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.821);
+  display: inline;
+  padding: 0.5rem;
+  color: rgba(183, 103, 42, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}
 .main-container .card-container .text p {
-  font-size: 12px;
-  background-color: rgba(2, 2, 2, 0.763);
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.821);
   color: white;
-  margin-top: 50px;
+  margin-top: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 1s ease;
+  opacity: 0;
 }/*# sourceMappingURL=Main.css.map */

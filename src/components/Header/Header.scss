@@ -1,9 +1,21 @@
-
 @import "../../scss/variable";
 
 .header {
     margin-block: 2rem;
     color: $cardNavBgColor;
-    font-size: 1.75rem;
     text-align: center;
+
+
+    h1 {
+        font-size: 2.5rem;
+        animation: yanipSon 8s infinite;
+    }
+}
+
+@keyframes yanipSon {
+    0% {opacity: 1;}
+
+    50% {opacity: 0.2;}
+
+    100% { opacity: 1;}
 }

@@ -12,6 +12,7 @@ const Navbar = () => {
         <li>ARTICLE</li>
         <li>CONTACT</li>
       </ul>
+      <i className="fa-solid fa-bars icon"></i>
     </div>
   )
 }

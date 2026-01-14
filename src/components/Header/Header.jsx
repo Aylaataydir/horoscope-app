@@ -4,7 +4,7 @@ import "./Header.scss"
 const Header = () => {
   return (
     <div className="header">
-     WHO ARE YOU?
+    <h1> WHO ARE YOU?</h1>
     </div>
   );
 };

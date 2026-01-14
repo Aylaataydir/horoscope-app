@@ -1,6 +1,21 @@
 .header {
   margin-block: 2rem;
   color: rgba(183, 103, 42, 0.9);
-  font-size: 1.75rem;
   text-align: center;
+}
+.header h1 {
+  font-size: 2.5rem;
+  animation: yanipSon 8s infinite;
+}
+
+@keyframes yanipSon {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=Header.css.map */

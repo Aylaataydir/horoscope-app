@@ -8,6 +8,12 @@
     justify-content: space-between;
     padding-inline: 1.25rem;
 
+    i {
+        font-size: 1.5rem;
+        color: $secondaryColor;
+        display: none;
+    }
+
     ul {
         list-style: none;
         display: flex;
@@ -29,6 +35,28 @@
 
         }
 
-
     }
+
+
+}
+
+@media (max-width: 42.5rem) {
+
+    .navbar {
+
+        i {
+            display: block;
+
+        }
+
+        li {
+            display: none;
+        }
+        
+    }
+
+
+
+
+
 }

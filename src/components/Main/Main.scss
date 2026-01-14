@@ -1,33 +1,91 @@
-.main-container {
+@import "../../scss/variable";
 
-    display: grid;
-    background-color: ;
 
-    .card-container {
-        width: 20rem;
-        position: relative;
 
-        img {
-            width: 100%;
+
+    .main-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        background-color: rgba(2, 61, 36, 0.218);
+        padding: 2.5rem;
+        border-radius: 0.5rem;
+        margin-inline: auto;
+        margin-block-end: 2rem;
+
+        .card-container {
+            width: 20rem;
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
             border-radius: .5rem;
-        }
+            box-shadow: 1px 3px 22px 5px rgba(0,0,0,0.59) ;
+            
 
-        .text {
-            position: absolute;
-            width: 100%;
-            top: 0;
-
-            p{
-                font-size: 12px;
-                background-color: rgba(2, 2, 2, 0.763);
-                color: white;
-                margin-top: 50px;
-
+            &:hover .desc {
+                transform: translateY(0%);
+                opacity: 1;
             }
 
+            img {
+                
+                width: 100%;
+                height: 100%;
+                
+            }
+
+            .text {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+
+                h3 {
+                    display: inline;
+                    margin: .5rem;
+                    color: $cardNavBgColor;
+                    padding: 0.75rem;
+                    background-color: rgba(0, 0, 0, 0.821);
+                    border-radius: 1rem;
+                    position: absolute;
+                    top: 8px;
+                }
+
+                h5 {
+                    text-align: center;
+                    background-color: rgba(0, 0, 0, 0.821);
+                    display: inline;
+                    padding: 0.5rem;
+                    color: $cardNavBgColor;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 0.5rem;
+                    font-size: .75rem;
+
+                }
+
+
+                p {
+                    font-size: 13px;
+                    background-color: rgba(0, 0, 0, 0.821);
+                    color: white;
+                    margin-top: 0;
+                    position: absolute;
+                    bottom: 0;
+                    padding: 0.5rem;
+                    transform: translateY(100%);
+                    transition: transform 1s ease;
+                    opacity: 0;
+                }
+
+            }
 
         }
 
     }
 
-}
+

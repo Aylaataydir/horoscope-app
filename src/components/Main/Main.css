@@ -1,12 +1,19 @@
 .main-container .card-container {
-  width: 18rem;
+  width: 20rem;
   position: relative;
 }
 .main-container .card-container img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 .main-container .card-container .text {
   position: absolute;
   width: 100%;
   top: 0;
+}
+.main-container .card-container .text p {
+  font-size: 12px;
+  background-color: rgba(2, 2, 2, 0.763);
+  color: white;
+  position: absolute;
 }/*# sourceMappingURL=Main.css.map */

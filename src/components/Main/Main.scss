@@ -2,18 +2,29 @@
 
 
     .card-container {
-        width: 18rem;
+        width: 20rem;
         position: relative;
 
         img {
             width: 100%;
+            border-radius: .5rem;
         }
 
         .text {
             position: absolute;
             width: 100%;
             top: 0;
-            // z-index: 10;
+
+            p{
+                font-size: 12px;
+                background-color: rgba(2, 2, 2, 0.763);
+                color: white;
+                position: absolute;
+
+            
+            }
+
+
         }
 
     }

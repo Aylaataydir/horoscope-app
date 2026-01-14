@@ -1,0 +1,34 @@
+@import "../../scss/variable";
+
+
+.navbar {
+    background-color: $cardNavBgColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.25rem;
+
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: $secondaryColor;
+
+
+
+        li {
+            padding: .5rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $secondaryColor;
+                color: $cardNavBgColor;
+                border-radius: 5px;
+            }
+
+        }
+
+
+    }
+}

@@ -1,0 +1,21 @@
+.main-container {
+
+
+    .card-container {
+        width: 18rem;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .text {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+    }
+
+}

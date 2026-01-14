@@ -1,0 +1,23 @@
+.navbar {
+  background-color: rgba(183, 103, 42, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.25rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #f9efd4;
+}
+.navbar ul li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.navbar ul li:hover {
+  background-color: #f9efd4;
+  color: rgba(183, 103, 42, 0.9);
+  border-radius: 5px;
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,13 @@
+.main-container .card-container {
+  width: 18rem;
+  position: relative;
+}
+.main-container .card-container img {
+  width: 100%;
+}
+.main-container .card-container .text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}/*# sourceMappingURL=Main.css.map */

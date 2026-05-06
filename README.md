@@ -3,8 +3,7 @@
 ## Technologies Used
 - **React**: For building the user interface and managing component-based architecture.
 - **Sass (SCSS)**: For advanced and modular styling.
-- **JavaScript**: For logic and interactivity.
-- **HTML5 & CSS3**: For structure and basic styling.
+
 
 ## What I Learned
 Through this project, I learned how to:
